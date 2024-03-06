@@ -1,23 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
+import User from './User';
+import HomeContainer from './containers/HomeContainer.js';
+import HeaderContainer from './containers/HeaderContainer.js';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     {/* <h1>App Component</h1> */}
+      {/* <User data={{name: 'Amey SW', age:24}}/> */}
+      <HeaderContainer/>
+      <HomeContainer/>
     </div>
   );
 }
