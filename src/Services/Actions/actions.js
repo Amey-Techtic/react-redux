@@ -9,7 +9,7 @@ export const addToCart = (data) =>{
 }
 
 
-export const removeFromCart = (n,mbn) =>{
+export const removeFromCart = () =>{
     console.log("action ");
     return{
         type: REMOVE_FROM_CART,

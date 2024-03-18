@@ -2,6 +2,8 @@ import Home from '../components/Home'
 import {connect} from 'react-redux'
 import {addToCart, removeFromCart} from '../Services/Actions/actions'
 
+
+
 const mapStateToProps = state =>({
     data: state.cartItems //this state will recieve cartData from reducer.js ADD_TO_CART case
 })
